@@ -140,7 +140,7 @@ class UserModel extends BaseModel {
     #get travel plans
     public function getUserTravelPlans($id, $offset){
         $offset=(int)$offset;
-        $query="SELECT id, project_id, venue, travel_date, days_away, justification, estimated_cost, funds_allocated, funds_spent, status, regional_office_destination, created_at FROM travel_plan WHERE user_id=? ORDER BY id DESC LIMIT 10 offset ?";
+        $query="SELECT travel_plan.id, travel_plan.project_id, travel_plan.venue, travel_plan.travel_date, travel_plan.days_away, travel_plan.justification, travel_plan.estimated_cost, travel_plan.funds_allocated, travel_plan.funds_spent, travel_plan.status, travel_plan.regional_office_destination, travel_plan.created_at, project.name FROM travel_plan INNER JOIN project ON travel_plan.project_id=project.id WHERE travel_plan.user_id=? ORDER BY id DESC LIMIT 10 offset ?";
         try{
             $stmt=  $this->getConnection($query);
             if($stmt){
@@ -150,14 +150,13 @@ class UserModel extends BaseModel {
                 $num_rows=$stmt->num_rows;
                 if($num_rows){
                     $plans=array();
-                    $stmt->bind_result($id, $project_id, $venue, $travel, $travel_date, $days_away, $justification, $estimated_cost, $funds_allocated, $funds_spent, $status, $regional, $created_at);
+                    $stmt->bind_result($id, $project_id, $venue, $travel_date, $days_away, $justification, $estimated_cost, $funds_allocated, $funds_spent, $status, $regional, $created_at, $project_name);
                     
                     while($stmt->fetch()){
                         $plan=array(
                             'id'=>$id, 
                             'project_id'=>$project_id,
                             'venue'=>$venue,
-                            'travel'=>$travel, 
                             'travel_date'=>$travel_date,
                             'days'=>$days_away,
                             'justification'=>$justification,
@@ -166,7 +165,8 @@ class UserModel extends BaseModel {
                             'funds_spent'=>$funds_spent,
                             'status'=>$status,
                             'regional'=>$regional,
-                            'created_at'=>$created_at
+                            'created_at'=>$created_at,
+                            'project_name'=>$project_name
                         );
                     }
                     array_push($plans, $plan);

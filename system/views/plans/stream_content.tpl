@@ -14,11 +14,11 @@
                 </li> 
                 {/if}
                 {else}
-                    <li id="end">
-                        <div class="timeline-item">
+                    <div id="end">
+                        <div class="timeline-item p-social">
                             <h3>
                                  You have not added any travel plan yet <i class="fa fa-ellipsis-h"></i>
                             </h3>
                         </div>
-                    </li>
+                    </div>
     {/if}

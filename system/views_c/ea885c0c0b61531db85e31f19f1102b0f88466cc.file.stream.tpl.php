@@ -1,6 +1,6 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2017-02-06 10:46:42
+<?php /* Smarty version Smarty-3.1.19, created on 2017-02-06 13:43:39
          compiled from "C:\xampp\htdocs\Travel\system\views\plans\stream.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:296395898460294e920-04691532%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:844458986f7b68a8c3-73129075%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -11,15 +11,15 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '296395898460294e920-04691532',
+  'nocache_hash' => '844458986f7b68a8c3-73129075',
   'function' => 
   array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_589846029b5ce9_02544700',
+  'unifunc' => 'content_58986f7b6f4127_98308819',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_589846029b5ce9_02544700')) {function content_589846029b5ce9_02544700($_smarty_tpl) {?><div class="timeline pagination-lg" id="stream-content">
+<?php if ($_valid && !is_callable('content_58986f7b6f4127_98308819')) {function content_58986f7b6f4127_98308819($_smarty_tpl) {?><div class="timeline pagination-lg" id="stream-content">
 <?php echo $_smarty_tpl->getSubTemplate ("plans/stream_content.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array(), 0);?>
 
 </div><?php }} ?>

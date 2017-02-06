@@ -1,6 +1,6 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2017-02-06 11:51:06
+<?php /* Smarty version Smarty-3.1.19, created on 2017-02-06 13:43:37
          compiled from "C:\xampp\htdocs\Travel\system\views\includes\scripts.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:101095898551ad6d1a6-93904327%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:3223958986f79ddbcb9-61732091%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -11,7 +11,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '101095898551ad6d1a6-93904327',
+  'nocache_hash' => '3223958986f79ddbcb9-61732091',
   'function' => 
   array (
   ),
@@ -21,9 +21,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_5898551ad86fb0_12309753',
+  'unifunc' => 'content_58986f79df1450_43447242',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_5898551ad86fb0_12309753')) {function content_5898551ad86fb0_12309753($_smarty_tpl) {?><script type="text/javascript" src="<?php echo $_smarty_tpl->tpl_vars['cdn']->value;?>
+<?php if ($_valid && !is_callable('content_58986f79df1450_43447242')) {function content_58986f79df1450_43447242($_smarty_tpl) {?><script type="text/javascript" src="<?php echo $_smarty_tpl->tpl_vars['cdn']->value;?>
 vendors/jquery/jquery.min.js"></script>
 <script type="text/javascript" src="<?php echo $_smarty_tpl->tpl_vars['cdn']->value;?>
 vendors/bootstrap/bootstrap.min.js"></script>

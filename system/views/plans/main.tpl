@@ -7,7 +7,7 @@
             <section class="content-header">
                 <h1> Travel Plans</h1>
                 <ol class="breadcrumb pull-right">
-                    <li>Project list</li>
+                    <li>Travel Plan Lists</li>
                     <li class="active"><a href="/logout">Logout</a></li>
                 </ol>
             </section>
