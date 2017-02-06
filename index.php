@@ -19,7 +19,7 @@ if($module === 'logout'){
 }
 
 if(isset($_SESSION[T_SUPERVISOR])) {
-    #route into writer's modules
+    #route into supervisor's module
     switch ($module){
         case NULL:
         case 'supervisor':
@@ -30,7 +30,7 @@ if(isset($_SESSION[T_SUPERVISOR])) {
             break;
     }
 }elseif(isset($_SESSION[T_USER])) {
-    # Route into client's modules
+    # Route into user's module
     switch ($module) {
         case NULL:
         case 'user':
