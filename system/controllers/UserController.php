@@ -1,9 +1,4 @@
 <?php
-/**
- * Description of UserController
- *
- * @author Jaymoh
- */
 define ("MAX_SIZE", "2000");
 define("MAX_SONG_SIZE", 10000);
 define("MAX_ITEMS_PPG", 10);

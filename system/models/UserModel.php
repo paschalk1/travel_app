@@ -1,9 +1,4 @@
 <?php
-/**
- * Description of UserModel
- *
- * @author Jaymoh
- */
 class UserModel extends BaseModel {
     
     function __construct() {

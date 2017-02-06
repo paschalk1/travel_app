@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: 127.0.0.1
--- Generation Time: Feb 06, 2017 at 02:42 AM
+-- Generation Time: Feb 06, 2017 at 01:03 PM
 -- Server version: 10.1.16-MariaDB
 -- PHP Version: 7.0.9
 
@@ -36,6 +36,14 @@ CREATE TABLE `project` (
   `created_at` datetime NOT NULL,
   `updated_at` datetime NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Dumping data for table `project`
+--
+
+INSERT INTO `project` (`id`, `supervisor_id`, `name`, `description`, `total_budget`, `status`, `created_at`, `updated_at`) VALUES
+(1, 2, 'Campaigns', 'Campaign sensitization', 10000, 0, '2017-02-06 12:44:44', '0000-00-00 00:00:00'),
+(2, 2, 'Production', 'Something cool', 20000, 0, '2017-02-06 13:09:52', '0000-00-00 00:00:00');
 
 -- --------------------------------------------------------
 
@@ -147,7 +155,7 @@ ALTER TABLE `users`
 -- AUTO_INCREMENT for table `project`
 --
 ALTER TABLE `project`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
 --
 -- AUTO_INCREMENT for table `supervisor`
 --

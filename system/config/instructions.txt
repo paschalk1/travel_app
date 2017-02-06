@@ -1,5 +1,5 @@
 #Readme
-This project is an implementation of UN assignment questions (1, 2, 3)
+This project is an implementation of UN travel app assignment questions (1, 2, 3)
 It requires the latest version of PHP, i.e PHP 7 and also latest MySQL server installed on a server to run.
 
 If running from localhost, you will need to set HTTPD VHOSTS for the project to work. 
