@@ -1,6 +1,6 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2017-02-06 13:43:37
+<?php /* Smarty version Smarty-3.1.19, created on 2017-02-06 15:14:15
          compiled from "C:\xampp\htdocs\Travel\system\views\plans\modals.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:1505458986f79ce2cd9-02968490%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:31224589884b714c055-19973236%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -11,7 +11,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '1505458986f79ce2cd9-02968490',
+  'nocache_hash' => '31224589884b714c055-19973236',
   'function' => 
   array (
   ),
@@ -23,9 +23,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_58986f79d08a95_77944732',
+  'unifunc' => 'content_589884b71735c0_69153258',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_58986f79d08a95_77944732')) {function content_58986f79d08a95_77944732($_smarty_tpl) {?><div id="bs-add-plan-modal" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true" aria-labelledby="myModalLabel">
+<?php if ($_valid && !is_callable('content_589884b71735c0_69153258')) {function content_589884b71735c0_69153258($_smarty_tpl) {?><div id="bs-add-plan-modal" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true" aria-labelledby="myModalLabel">
     <div class="modal-dialog">
         <div class="wrapper">
             <form id="add-travel-plan" method="post" action="/<?php echo $_smarty_tpl->tpl_vars['links']->value['plans']['add'];?>

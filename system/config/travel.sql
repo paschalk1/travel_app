@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: 127.0.0.1
--- Generation Time: Feb 06, 2017 at 01:03 PM
+-- Generation Time: Feb 06, 2017 at 02:51 PM
 -- Server version: 10.1.16-MariaDB
 -- PHP Version: 7.0.9
 
@@ -80,7 +80,7 @@ CREATE TABLE `travel_plan` (
   `id` int(11) NOT NULL,
   `user_id` int(11) NOT NULL,
   `project_id` int(11) NOT NULL,
-  `venue` int(11) NOT NULL,
+  `venue` varchar(500) NOT NULL,
   `travel_date` datetime NOT NULL,
   `days_away` int(11) NOT NULL,
   `justification` varchar(500) NOT NULL,
@@ -92,6 +92,13 @@ CREATE TABLE `travel_plan` (
   `created_at` datetime NOT NULL,
   `updated_at` datetime NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Dumping data for table `travel_plan`
+--
+
+INSERT INTO `travel_plan` (`id`, `user_id`, `project_id`, `venue`, `travel_date`, `days_away`, `justification`, `estimated_cost`, `funds_allocated`, `funds_spent`, `status`, `regional_office_destination`, `created_at`, `updated_at`) VALUES
+(1, 1, 1, '0', '2017-02-23 15:00:01', 20, 'Enjoy while there''s time', '20000', '0', '0', 0, 'Voi', '2017-02-06 15:31:09', '0000-00-00 00:00:00');
 
 -- --------------------------------------------------------
 
@@ -165,7 +172,7 @@ ALTER TABLE `supervisor`
 -- AUTO_INCREMENT for table `travel_plan`
 --
 ALTER TABLE `travel_plan`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
 --
 -- AUTO_INCREMENT for table `users`
 --

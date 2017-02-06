@@ -2,7 +2,9 @@
     
     {if $plans|@count gt 0}
         {foreach $plans as $plan}
+            
             {include file="plans/plan.tpl"}
+            
             {/foreach}
             {else}
                 <li id="end">

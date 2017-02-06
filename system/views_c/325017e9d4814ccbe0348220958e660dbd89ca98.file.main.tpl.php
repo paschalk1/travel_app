@@ -1,25 +1,25 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2017-02-06 13:43:37
+<?php /* Smarty version Smarty-3.1.19, created on 2017-02-06 15:14:14
          compiled from "C:\xampp\htdocs\Travel\system\views\plans\main.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:240458986f7970b169-99844309%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:4190589884b6ae6932-70656700%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     '325017e9d4814ccbe0348220958e660dbd89ca98' => 
     array (
       0 => 'C:\\xampp\\htdocs\\Travel\\system\\views\\plans\\main.tpl',
-      1 => 1486373768,
+      1 => 1486385045,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '240458986f7970b169-99844309',
+  'nocache_hash' => '4190589884b6ae6932-70656700',
   'function' => 
   array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_58986f7976c012_03541561',
+  'unifunc' => 'content_589884b6b46063_88757072',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_58986f7976c012_03541561')) {function content_58986f7976c012_03541561($_smarty_tpl) {?><?php echo $_smarty_tpl->getSubTemplate ("shared/head.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array(), 0);?>
+<?php if ($_valid && !is_callable('content_589884b6b46063_88757072')) {function content_589884b6b46063_88757072($_smarty_tpl) {?><?php echo $_smarty_tpl->getSubTemplate ("shared/head.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array(), 0);?>
 
 <?php echo $_smarty_tpl->getSubTemplate ("includes/styles.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, null, array(), 0);?>
 
@@ -30,7 +30,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
             <section class="content-header">
                 <h1> Travel Plans</h1>
                 <ol class="breadcrumb pull-right">
-                    <li>Project list</li>
+                    <li>Travel Plan Lists</li>
                     <li class="active"><a href="/logout">Logout</a></li>
                 </ol>
             </section>

@@ -1,6 +1,6 @@
-<?php /* Smarty version Smarty-3.1.19, created on 2017-02-06 13:43:37
+<?php /* Smarty version Smarty-3.1.19, created on 2017-02-06 15:14:14
          compiled from "C:\xampp\htdocs\Travel\system\views\plans\plans.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:1525158986f79b00864-44238937%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:16981589884b6ebcb73-00359839%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -11,7 +11,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '1525158986f79b00864-44238937',
+  'nocache_hash' => '16981589884b6ebcb73-00359839',
   'function' => 
   array (
   ),
@@ -21,9 +21,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.19',
-  'unifunc' => 'content_58986f79b08f48_89180445',
+  'unifunc' => 'content_589884b6ec42c3_37893208',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_58986f79b08f48_89180445')) {function content_58986f79b08f48_89180445($_smarty_tpl) {?><div class="box">
+<?php if ($_valid && !is_callable('content_589884b6ec42c3_37893208')) {function content_589884b6ec42c3_37893208($_smarty_tpl) {?><div class="box">
     <div class="div-scroll">
         <div class="row" id="feeds" data-target-feeds="/<?php echo $_smarty_tpl->tpl_vars['links']->value['plans']['stream'];?>
 " data-target="#stream-content" data-selector="#stream-content">

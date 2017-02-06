@@ -167,9 +167,9 @@ class UserModel extends BaseModel {
                             'regional'=>$regional,
                             'created_at'=>$created_at,
                             'project_name'=>$project_name
-                        );
+                        ); 
+                        array_push($plans, $plan);
                     }
-                    array_push($plans, $plan);
                     $stmt->close();
                     
                     return $plans;
