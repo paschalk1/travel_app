@@ -33,3 +33,5 @@ You will then edit the windows hosts files as below and add virtual host domain 
 	127.0.0.1	front.travel.com
 
 Finally go to PHPMyAdmin and create a database named travel, import the database "travel.sql" file provided in the "system/config" folder.
+
+I also used Smarty template engine for PHP facilitating the separation of presentation (HTML/CSS) from application logic. 
