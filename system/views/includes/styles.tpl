@@ -1,0 +1,9 @@
+<link rel="stylesheet" href="{$cdn}vendors/bootstrap/bootstrap.min.css">
+<link rel="stylesheet" href="{$cdn}fonts/font-awesome/font-awesome.min.css">
+<link rel="stylesheet" href="{$cdn}vendors/animate/animate.min.css">
+<link rel="stylesheet" href="{$cdn}vendors/skins/_all-skins.min.css">
+<link rel="stylesheet" href="{$cdn}css/Page.css">
+<link rel="stylesheet" href="{$cdn}css/responsive.css">
+<link rel="stylesheet" href="{$cdn}vendors/validationEngine/css/validationEngine.jquery.css">
+<link rel="stylesheet" href="{$cdn}vendors/bootstrap-datetimepicker/bootstrap-datetimepicker.min.css">
+<link rel="stylesheet" href="{$cdn}css/global.css">

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/C:/xampp/htdocs/Travel/system/controllers/SupervisorController.php</file>
+            <file>file:/C:/xampp/htdocs/Travel/system/views/plans/stream.tpl</file>
+            <file>file:/C:/xampp/htdocs/Travel/index.php</file>
+            <file>file:/C:/xampp/htdocs/Travel/system/utilities/Utils.php</file>
+            <file>file:/C:/xampp/htdocs/Travel/front/js/globals.js</file>
+            <file>file:/C:/xampp/htdocs/Travel/system/views/plans/main.tpl</file>
+            <file>file:/C:/xampp/htdocs/Travel/system/views/includes/scripts.tpl</file>
+            <file>file:/C:/xampp/htdocs/Travel/system/controllers/AuthController.php</file>
+            <file>file:/C:/xampp/htdocs/Travel/system/models/SuperVisorModel.php</file>
+            <file>file:/C:/xampp/htdocs/Travel/system/views/auth/supervisor_login.tpl</file>
+            <file>file:/C:/xampp/htdocs/Travel/system/utilities/Controller.php</file>
+            <file>file:/C:/xampp/htdocs/Travel/system/views/projects/main.tpl</file>
+            <file>file:/C:/xampp/htdocs/Travel/system/views/plans/plans.tpl</file>
+            <file>file:/C:/xampp/htdocs/Travel/system/views/plans/plan.tpl</file>
+            <file>file:/C:/xampp/htdocs/Travel/front/css/global.css</file>
+            <file>file:/C:/xampp/htdocs/Travel/config.php</file>
+            <file>file:/C:/xampp/htdocs/Travel/system/views/plans/stream_content.tpl</file>
+        </group>
+    </open-files>
+</project-private>

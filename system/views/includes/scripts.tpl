@@ -1,0 +1,11 @@
+<script type="text/javascript" src="{$cdn}vendors/jquery/jquery.min.js"></script>
+<script type="text/javascript" src="{$cdn}vendors/bootstrap/bootstrap.min.js"></script>
+<script type="text/javascript" src="{$cdn}js/smoothscroll.js"></script>
+<script type="text/javascript" src="{$cdn}js/custom.js"></script>
+<script type="text/javascript" src="{$cdn}vendors/validationEngine/js/languages/jquery.validationEngine-en.js"></script>
+<script type="text/javascript" src="{$cdn}vendors/validationEngine/js/jquery.validationEngine.js"></script>
+<script type="text/javascript" src="{$cdn}vendors/jqueryForm/jquery.form.js"></script>
+<script type="text/javascript" src="{$cdn}vendors/bootstrap-datetimepicker/bootstrap-datetimepicker.min.js"></script>
+<script type="text/javascript" src="{$cdn}vendors/wow/wow.min.js"></script>
+<script type="text/javascript" src="{$cdn}js/common.js"></script>
+<script type="text/javascript" src="{$cdn}js/globals.js"></script>
