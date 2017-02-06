@@ -6,6 +6,7 @@ else
 
 include_once 'config.php';
 
+# Start
 # Get module!
 $module = filter_input(INPUT_GET, 'module');
 
