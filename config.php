@@ -48,8 +48,7 @@ if (!defined('__ROOT__')) {
     
     # Set cdn path
     define('FRONT', 'http://front.travel.com/');
-    
-    # Set the Keshaa domain...
+   
     define('SS_D', 'http://dev.travel.com/');
     
     # This is crazy but, set phone validation regex!
@@ -62,9 +61,8 @@ if (!defined('__ROOT__')) {
     define('T_SUPERVISOR', 'travelSupervisor');
 
     # Set session user identifier!
-    define('T_USER', 'travelPlanner');
-    
-    # Set keshaa address
+    define('T_USER', 'travelPlanner')
+   
     define('T_ADDRESS', "travel.com,");
     
     # Set Logo
